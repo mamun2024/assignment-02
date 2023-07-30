@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+background-color: rgb(241, 241, 241);
+}
+
+/* HEADER AREYA */
+
+.container{
+    padding: 5px 90px;
+}
+/* Head style */
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+}
+.dcolor{
+    color: rgb(72, 221, 72);
+}
+.manu-bar{
+    display: flex;
+    gap: 25px;
+
+}
+.manu-bar > li{
+    text-decoration: none;
+    list-style-type: none;
+    height: 100%;
+    padding: 5px 8px;
+    transition: 0.40s all;
+    
+}
+.manu-bar > li >a{
+    text-decoration: none;
+    color: rgb(71, 209, 71);
+
+}
+.manu-bar > li:hover{
+    background-color: rgb(129, 241, 129);
+    border-radius: 6px;
+
+}
+.banner1{
+ height: 81vh;
+ background-image: url(./banner-bg.jpg);
+ display: flex;
+ align-items: center;
+}
+.banner > h1{
+    color: rgb(84, 214, 84);
+}
+.button1{
+    color: white;
+    border: 2px solid green;
+    background-color: rgb(109, 209, 109);
+    padding: 6px 30px;
+    border-radius: 3px;
+    transition: 0.40s;
+}
+.button2{
+    color: white;
+    border: 2px solid green;
+    background-color: black;
+    padding: 6px 30px;
+    border-radius: 4px;
+    margin-left: 25px;
+    transition: 0.40s;
+}
+.button1:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: rgb(137, 228, 137);
+    cursor: pointer;
+}
+.banner{
+    width: 50%;
+}
+.banner-image{
+    height: auto;
+    width: 50%;
+}
+/* PRODUCTS SECTION */
+
+.produvt-heading{
+    text-align: center;
+}
+.produvt-heading > h1{
+    color: rgb(96, 194, 96);
+}
+.product-section{
+    display: flex;
+    text-align: center;
+}
+.product1 > div{
+    background-color: rgb(241, 241, 241);
+}
+.product1 img{
+    width: 300px;
+    background-color: white;
+}
+.product1{
+    /* width: 330px; */
+    border: 5px gray;
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+.product1 > h3{
+    color: rgb(95, 187, 95);
+}
+.product1 > h5{
+    color: white;
+    background-color: rgb(90, 194, 90);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+
+.product-section2{
+    display: flex;
+    text-align: center;
+}
+.product2 > div{
+    background-color: rgb(241, 241, 241);
+}
+.product2 img{
+    width: 300px;
+    background-color: white;
+}
+.product2{
+    /* width: 330px; */
+    border: 5px gray;
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+.product2 > h3{
+    color: rgb(92, 187, 92);
+}
+.product2 > h5{
+    color: white;
+    background-color: rgb(90, 194, 90);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.button3{
+    text-align: center;
+}
+.button3 > button{
+    color: white;
+    border: 2px solid green;
+    background-color: rgb(109, 209, 109);
+    padding: 10px 40px;
+    border-radius: 4px;
+    transition: 0.40s;
+}
+.button3 >:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+/* TEAM SECTION */
+
+.team-heading{
+    text-align: center;
+}
+.team-heading > h1{
+    color: green;
+}
+.doctors{
+    display: flex;
+    text-align: center;
+    margin-left: 70px;
+    gap: 80px;
+}
+.doctors2 > img{
+    width: 340px;
+    border-radius: 10px;
+}
+.doctors2{
+    background-color: white;
+    /* border: .10px solid gray; */
+    border-radius: 15px;
+}
+.doctors2 > h3{
+    color: rgb(100, 185, 100);
+}
+.newaz-headind{
+    text-align: center;
+}
+.newaz-headind > h1{
+    color: rgb(83, 182, 83);
+}
+.newaz-side{
+    display: flex;
+}
+.newaz{
+    background-color: white;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+}
+.newaz > img{
+    border-radius: 10px;
+    /* width: 200px; */
+
+}
+.newaz > h3{
+    color: rgb(89, 187, 89);
+
+}
+.newaz-side > div > img{
+    width: 480px;
+}
+.newaz-side > div{
+    margin-left: 70px;
+}
+
+/* ABOUT AREYA */
+.about{
+    display: flex;
+    height: auto;
+    align-items: center;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    gap: 220px;
+}
+.text{
+    padding: 75px;
+}
+/* FOTER AREYA */
+.Copyright{
+    color: white;
+    background-color: rgb(41, 41, 41);
+    height: auto;
+    text-align: center;
+    border: 1px solid rgb(49, 116, 49);
+}
+/* FOR MOBILE SCREEN */
+@media only screen and (max-width:600px) {
+    body{
+        .banner1{
+            display: block;
+           }
+           .banner{
+            width: 100%;
+            padding-right: 0px;
+            
+           }
+           .banner-image{
+            padding: 100%;
+           }
+    }
+}
+/* FOR TAB SCREEN  */
+@media only screen and (min-width:601px) and (max-width:900px) {
+    body{
+        .banner1{
+            display: block;
+           }
+           .banner{
+            width: 100%;
+            padding-right: 0px;
+            
+           }
+           .banner-image{
+            padding: 100%;
+           }
+    }
+}
+/* FOR PC,DESKTOP SCREEN  */
+@media only screen and () and () {
+    body{
+        background-color: rgb(218, 218, 218);
+    }
+}
